@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: gitops-nginx
 spec:
-  tyupe: LoadBalancer
   ports:
   - port: 80
     protocol: TCP
