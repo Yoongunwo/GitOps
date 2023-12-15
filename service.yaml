@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: gitops-nginx
 spec:
-  type: ClusterIP
+  type: LoadBalancer #ClusterIP
   ports:
     - port: 80
       protocol: TCP
